@@ -3,115 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <LinearLayout
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:layout_height="100dp"
+        android:background="#A1F4AC"
+        />
+    <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="#33B64A4A"
-        >
+        android:layout_marginTop="30dp"
+        android:text="voice"
 
+        />
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/rabby"
-            />
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="this is the song titlell"
-                android:textSize="20dp"
-                android:textColor="#131313"
-                android:layout_marginTop="3dp"
-                android:maxLines="2"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="this is the song titlell"
-                android:textSize="20dp"
-                android:textColor="#131313"
-                android:layout_marginTop="3dp"
-                android:maxLines="2"
-                />
-
-        </LinearLayout>
-
-        <ImageView
-            android:id="@+id/playbtn1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/playbtn"
-            android:tag="Not_Playing"
-            />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="#333C3B3B"
-        >
-
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/rabby"
-            />
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="this is the song titlell"
-                android:textSize="20dp"
-                android:textColor="#131313"
-                android:layout_marginTop="3dp"
-                android:maxLines="2"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="this is the song titlell"
-                android:textSize="20dp"
-                android:textColor="#131313"
-                android:layout_marginTop="3dp"
-                android:maxLines="2"
-                />
-
-        </LinearLayout>
-
-        <ImageView
-            android:id="@+id/playbtn2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/playbtn"
-            />
-
-
-    </LinearLayout>
 
 
 </LinearLayout>
