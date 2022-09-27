@@ -3,27 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:layout_marginTop="50dp"
-        android:id="@+id/edittext"
-        android:layout_width="match_parent"
-        android:padding="30dp"
-        android:layout_height="100dp"
-        android:background="#A1F4AC"
-        />
-    <Button
-        android:id="@+id/button"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="voice"
-
-        />
-
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </LinearLayout>
