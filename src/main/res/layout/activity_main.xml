@@ -5,20 +5,113 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_margin="10dp"
     tools:context=".MainActivity">
-
-   <ScrollView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content">
-
     <LinearLayout
-        android:id="@+id/mylayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal"
+        android:background="#33B64A4A"
+        >
 
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rabby"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is the song titlell"
+                android:textSize="20dp"
+                android:textColor="#131313"
+                android:layout_marginTop="3dp"
+                android:maxLines="2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is the song titlell"
+                android:textSize="20dp"
+                android:textColor="#131313"
+                android:layout_marginTop="3dp"
+                android:maxLines="2"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/playbtn1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/playbtn"
+            android:tag="Not_Playing"
+            />
 
 
     </LinearLayout>
-   </ScrollView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#333C3B3B"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rabby"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is the song titlell"
+                android:textSize="20dp"
+                android:textColor="#131313"
+                android:layout_marginTop="3dp"
+                android:maxLines="2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is the song titlell"
+                android:textSize="20dp"
+                android:textColor="#131313"
+                android:layout_marginTop="3dp"
+                android:maxLines="2"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/playbtn2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/playbtn"
+            />
+
+
+    </LinearLayout>
+
+
 </LinearLayout>
