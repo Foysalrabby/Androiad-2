@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="#C469B0B6"
+    tools:context=".MainActivity"
+    android:id="@+id/mainlout">
+
+    <LinearLayout
+        android:id="@+id/sublayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/inbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bnbtn"
+        android:text="India" />
+
+            <Button
+                android:id="@+id/bnbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Bangladesh" />
+
+
+
+
+
+
+</RelativeLayout>
