@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bmicalculator">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DDBC56"
+        android:text="BMI Calculator" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/foottext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="height in foot"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inchtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="height in inch"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/weighttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="weight in kg"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="calculate bmi"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BD975E"
+        android:orientation="vertical">
+        <TextView
+
+            android:id="@+id/textadvice"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="you need"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

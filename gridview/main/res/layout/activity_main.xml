@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+ <RelativeLayout
+     android:id="@+id/relativelay"
+     android:layout_width="match_parent"
+     android:layout_height="200dp"
+
+     >
+
+     <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scaleType="centerCrop"
+         android:src="@drawable/tenispic" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:gravity="center"
+         android:text="Home work"
+         android:textColor="#151515"
+         android:textSize="20dp"
+         android:textStyle="bold" />
+
+ </RelativeLayout>
+
+<GridView
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:numColumns="3"/>
+
+</LinearLayout>
